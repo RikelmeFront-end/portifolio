@@ -1,4 +1,4 @@
-/*--- Fonte--- */
+/*---Fonte--- */
 
 h1{
 font-size: 126px;
@@ -24,7 +24,31 @@ line-height: 34px;
 color: #333;
 }
 
-/*--- Fonte--- */
+/*---Fonte--- */
+
+/*---Botoes--- */
+
+.botao{
+   padding: 13px 45px;
+   font-size: 18px;
+   font-weight: 900;
+   background-color: #0699A6;
+   color: #fff;
+   text-decoration: none;
+   text-transform: uppercase;  
+}
+/*--- botoes--- */
+
+/*---Display--- */
+ .container{
+   display: flex;
+   width: 1024px;
+   margin: 0 auto;
+   justify-content: space-between;
+ }
+
+
+/*---Display--- */
 
 .perfil img{
    width: 350px;
