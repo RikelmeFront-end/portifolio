@@ -4,11 +4,13 @@ h1{
 font-size: 126px;
 font-weight: 900;
 line-height: 112px;
+margin: 0 0 30px 0;
 }
 h2{
 font-size: 36px;
 font-weight: 900;
 line-height: 46px;
+margin: 0 0 20px 0;
 }
 h3{
 font-size: 18px;
@@ -16,6 +18,7 @@ font-weight: 700;
 line-height: 24px; 
 color: #9E8C6C;
 letter-spacing: 2px; 
+margin: 0 0 10px 0;
 }
 p{
 font-size: 20px;
@@ -26,10 +29,11 @@ color: #333;
 
 /*---Fonte--- */
 
-/*---Botoes--- */
+/*---Default--- */
 
 .botao{
-   padding: 13px 45px;
+   padding: 18px 62px;
+   margin: 10px 0;
    font-size: 18px;
    font-weight: 900;
    background-color: #0699A6;
@@ -37,21 +41,57 @@ color: #333;
    text-decoration: none;
    text-transform: uppercase;  
 }
-/*--- botoes--- */
-
-/*---Display--- */
  .container{
    display: flex;
-   width: 1024px;
+   max-width: 1024px;
    margin: 0 auto;
    justify-content: space-between;
  }
 
 
-/*---Display--- */
+ /*--- Default--- */
+
+/*---HEADER--- */
+#header{
+   width: 100%;
+   padding: 180px 0 209px 0;
+   background-color: #9e8c6c11;
+}
+
+.perfil{
+   width: 350px;
+}
 
 .perfil img{
-   width: 350px;
-   height: 350px;
+   width: 100%;
    border-radius: 100%;
+}
+.perfil-sobre{
+   width: 635px;
+}
+/*---HEADER--- */
+
+/*---Tablet--- */
+@media screen and (max-width:768px){
+   h1{
+      font-size: 86px;
+      line-height: 76px;
+   }
+   #header{
+      padding: 80px 0 130px 0;
+   }
+   #header .container{
+      flex-direction: column;
+      align-items: center;
+   }
+   .perfil{
+      width: 200px;
+      margin-bottom: 40px;
+   }
+   .perfil-sobre{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
 }
