@@ -74,8 +74,8 @@ color: #333;
 /*---Tablet--- */
 @media screen and (max-width:768px){
    h1{
-      font-size: 86px;
-      line-height: 76px;
+      font-size: 56px;
+      line-height: 46px;
    }
    #header{
       padding: 80px 0 130px 0;
@@ -85,7 +85,7 @@ color: #333;
       align-items: center;
    }
    .perfil{
-      width: 200px;
+      width: 160px;
       margin-bottom: 40px;
    }
    .perfil-sobre{
@@ -93,15 +93,5 @@ color: #333;
       flex-direction: column;
       align-items: center;
       text-align: center;
-   }
-}
-@media screen and (max-width:375px) {
-   h1{
-      font-size: 56px;
-      line-height: 46px;
-   }
-   .perfil{
-      width: 160px;
-      margin-bottom: 40px;
    }
 }
