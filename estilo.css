@@ -67,15 +67,12 @@ color: #333;
    border-radius: 100%;
 }
 .perfil-sobre{
-   width: 635px;
+   max-width: 635px;
 }
 /*---HEADER--- */
 
 /*---Tablet--- */
 @media screen and (max-width:768px){
-   .container{
-      max-width: 100%;
-   }
    h1{
       font-size: 56px;
       line-height: 46px;
