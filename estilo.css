@@ -73,6 +73,9 @@ color: #333;
 
 /*---Tablet--- */
 @media screen and (max-width:768px){
+   .container{
+      max-width: 100%;
+   }
    h1{
       font-size: 56px;
       line-height: 46px;
