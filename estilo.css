@@ -95,6 +95,11 @@ color: #333;
    text-align: center;
    text-decoration: none;
   }
+  .social{
+   display: flex;
+   width: 243px;
+   justify-content: space-between;
+  }
 /*---Footer---*/
 
 /*---Tablet--- */
@@ -119,5 +124,13 @@ color: #333;
       flex-direction: column;
       align-items: center;
       text-align: center;
+   }
+   h4{
+      font-size: 40px;
+      line-height: 50px;
+   }
+   #footer .container a{
+      font-size: 26px ;
+      line-height: 36px ;
    }
 }
