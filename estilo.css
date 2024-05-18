@@ -53,10 +53,24 @@ color: #333;
    margin: 0 auto;
    justify-content: space-between;
  }
+ ul{
+   list-style: none;
+   padding-left: 0;
+ }
+ ul li{
+   font-size: 20px;
+   line-height: 34px;
+   font-weight: 400;
+ }
+ ul li a{
+   text-decoration: none;
+   color: #0699A6;
+   font-weight: 600;
+ }
 
  /*--- Default--- */
 
-/*---HEADER--- */
+/*---Header--- */
 #header{
    width: 100%;
    padding: 180px 0 209px 0;
@@ -74,7 +88,16 @@ color: #333;
 .perfil-sobre{
    max-width: 635px;
 }
-/*---HEADER--- */
+/*---Header--- */
+
+/*---Main--- */
+.skillset, .Careertraits, .Recentework, .awards{
+   margin-bottom: 100px;
+}
+#main{
+   padding-top: 96px;
+}
+/*---Main--- */
 
 /*---Footer---*/
 #footer{
