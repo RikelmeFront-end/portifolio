@@ -156,4 +156,18 @@ color: #333;
       font-size: 20px ;
       line-height: 36px ;
    }
+   .skills ul li{
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 400;
+   }
+   .skills{
+      text-align: center;
+      max-width: 375px;
+   }
+   .Careertraits p{
+      line-height: 30px;
+      font-size: 18px;
+      font-weight: 400;
+   }
 }
