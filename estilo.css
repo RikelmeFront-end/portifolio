@@ -26,11 +26,17 @@ font-weight: 900;
 text-align: center;
 font-size: 66px;
 }
+h5{
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 24px;
+}
 p{
 font-size: 20px;
 font-weight: 400;
 line-height: 34px;
 color: #333;
+margin-top:0 ;
 }
 
 /*---Fonte--- */
@@ -93,9 +99,21 @@ color: #333;
 /*---Main--- */
 .skillset, .Careertraits, .Recentework, .awards{
    margin-bottom: 100px;
+   width: 350px;
+   padding-left: 165px;
 }
 #main{
    padding-top: 96px;
+   display: flex;
+}
+.sobre{
+   width: 740px;
+   padding-right: 165px;
+}
+.ladoalado{
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
 }
 /*---Main--- */
 
