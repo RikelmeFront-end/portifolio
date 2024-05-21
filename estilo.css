@@ -99,8 +99,7 @@ margin-top:0 ;
 /*---Main--- */
 .skillset, .Careertraits, .Recentework, .awards{
    margin-bottom: 100px;
-   width: 350px;
-   padding-left: 165px;
+   max-width: 350px;
 }
 #main{
    padding-top: 96px;
@@ -109,6 +108,9 @@ margin-top:0 ;
 .sobre{
    width: 740px;
    padding-right: 165px;
+}
+.box{
+   max-width: 740px;
 }
 .ladoalado{
    display: flex;
@@ -180,11 +182,30 @@ margin-top:0 ;
       font-weight: 400;
    }
    .skills{
-      max-width: 375px;
+      max-width: 335px;
    }
    .Careertraits p{
       line-height: 30px;
       font-size: 18px;
       font-weight: 400;
    }
+   #main{
+      flex-direction: column-reverse;
+   }
+   .sobre{
+      max-width: 375px;
+   }
+   .box{
+      max-width: 375px;
+      
+   }
+   .ladoalado{
+      flex-direction: column;
+   }
+   p{
+      line-height: 30px;
+      font-size: 18px;
+      font-weight: 400;
+   }
+
 }
