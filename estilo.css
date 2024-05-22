@@ -105,6 +105,12 @@ margin-top:0 ;
    padding-top: 96px;
    display: flex;
 }
+.barraazul{
+   width:71px;
+   height:10px;
+   background-color:#0699A6;
+   margin: 40px 0 40px 20px;
+}
 .sobre{
    max-width: 740px;
    padding-right: 165px;
@@ -191,6 +197,10 @@ margin-top:0 ;
    }
    #main{
       flex-direction: column-reverse;
+   }
+   .barraazul{
+      width:54px;
+      height:10px;
    }
    .sobre{
       max-width: 375px;
