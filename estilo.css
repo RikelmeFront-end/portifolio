@@ -100,6 +100,7 @@ margin-top:0 ;
 .skillset, .Careertraits, .Recentework, .awards{
    margin-bottom: 100px;
    max-width: 350px;
+   
 }
 #main{
    padding-top: 96px;
@@ -117,6 +118,12 @@ margin-top:0 ;
 }
 .box{
    max-width: 740px;
+}
+.notificacao{
+   max-width: 510px;
+   height: 60px;
+   margin: 0 auto;
+   background-color:#F5F3F0 ;
 }
 .ladoalado{
    display: flex;
@@ -209,6 +216,13 @@ margin-top:0 ;
    .box{
       max-width: 375px;
       
+   }
+   .notificacao{
+      width: 100%;
+   }
+   .notificacao p{
+      font-size: 14px;
+      font-weight: 500;
    }
    .ladoalado{
       flex-direction: column;
