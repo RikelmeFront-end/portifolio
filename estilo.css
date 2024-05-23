@@ -80,7 +80,7 @@ margin-top:0 ;
 #header{
    width: 100%;
    padding: 180px 0 209px 0;
-   background-color: #FFE7E7;
+   background-color: #DDDDDD;
 }
 
 .perfil{
@@ -127,7 +127,7 @@ margin-top:0 ;
 
 /*---Footer---*/
 #footer{
-   background-color: #FFE7E7;
+   background-color: #DDDDDD;
    width: 100%;
    height: 547px;
   }
