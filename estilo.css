@@ -219,6 +219,7 @@ margin-top:0 ;
    }
    .notificacao{
       width: 100%;
+      padding-bottom: 5px;
    }
    .notificacao p{
       font-size: 14px;
