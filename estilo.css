@@ -57,6 +57,7 @@ margin-top:0 ;
    display: flex;
    max-width: 1024px;
    margin: 0 auto;
+   margin-top: 96px;
    justify-content: space-between;
  }
  ul{
@@ -99,12 +100,7 @@ margin-top:0 ;
 /*---Main--- */
 .skillset, .Careertraits, .Recentework, .awards{
    margin-bottom: 100px;
-   max-width: 350px;
    
-}
-#main{
-   padding-top: 96px;
-   display: flex;
 }
 .barraazul{
    width:71px;
@@ -114,14 +110,14 @@ margin-top:0 ;
 }
 .sobre{
    max-width: 740px;
-   padding-right: 165px;
+   margin-left: 165px;
 }
 .box{
    max-width: 740px;
 }
 .notificacao{
    max-width: 510px;
-   height: 60px;
+   height: 50px;
    margin: 0 auto;
    background-color:#F5F3F0 ;
 }
@@ -202,8 +198,9 @@ margin-top:0 ;
       font-size: 18px;
       font-weight: 400;
    }
-   #main{
+   .container{
       flex-direction: column-reverse;
+      max-width: 375px;
    }
    .barraazul{
       width:54px;
@@ -212,6 +209,7 @@ margin-top:0 ;
    .sobre{
       max-width: 375px;
       padding-right: 0;
+      margin-left: 0;
    }
    .box{
       max-width: 375px;
