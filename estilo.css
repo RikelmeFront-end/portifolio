@@ -55,7 +55,7 @@ margin-top:0 ;
 }
  .container{
    display: flex;
-   max-width: 1024px;
+   max-width: 1110px;
    margin: 0 auto;
    margin-top: 96px;
    justify-content: space-between;
@@ -100,6 +100,7 @@ margin-top:0 ;
 /*---Main--- */
 .skillset, .Careertraits, .Recentework, .awards{
    margin-bottom: 100px;
+   max-width: 350px;
    
 }
 .barraazul{
@@ -109,8 +110,7 @@ margin-top:0 ;
    margin: 40px 0 40px 20px;
 }
 .sobre{
-   max-width: 740px;
-   margin-left: 165px;
+   max-width: 640px;
 }
 .box{
    max-width: 740px;
